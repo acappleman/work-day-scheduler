@@ -6,7 +6,7 @@ This scheduler gives the user the ability to save daily events at the hourly lev
 
 ## Installation
 
-You can access the password generator using GitHub Pages. 
+You can access the scheduler using GitHub Pages. 
 
 [Work Day Scheduler](https://acappleman.github.io/work-day-scheduler/)
 
