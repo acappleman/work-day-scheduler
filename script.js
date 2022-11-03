@@ -15,7 +15,7 @@ for (var i = currentHour + 1; i < 18; i++) {
     $('#' + i).toggleClass('past future');
 }
 
-// Create click event for the Save Button for 9am and then store the values in localStorage
+// Create click events for the save buttons and store the values in localStorage
 $('#saveBtn9').on('click', function() {
     var textareaValue = $('#9').val();
     localStorage.setItem('9', textareaValue);
@@ -61,7 +61,7 @@ $('#saveBtn17').on('click', function() {
     localStorage.setItem('17', textareaValue);
 });
 
-// Get items from localStorage and enter them into the respective time box
+// Get items from localStorage and enter them into time boxes
 for (var i = 9; i < 18; i++) {
     var textareaValue = localStorage.getItem(i);
     $('#' + i).val(textareaValue);
