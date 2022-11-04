@@ -14,7 +14,7 @@ You can access the scheduler using GitHub Pages.
 
 Below is a screen recording of the completed scheduler and its functionality.
 
-![Work Day Scheduler Screen Recording]() <!--------------UPDATE THIS LINK!!-----------------------
+![Work Day Scheduler Screen Recording](./assets/images/scheduler-screen-recording.gif)
 
 ## Credits
 
